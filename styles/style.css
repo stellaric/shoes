@@ -1,4 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa+One&family=Fugaz+One&family=Holtwood+One+SC&family=Jua&display=swap');
+
+
 html{
-    margin:0;
-    padding:0;
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0 ;
+    padding: 0 ;
+    background-image: url(../images/omar-prestwich-jLEGurepDco-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* header*/
+header{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    box-shadow: 4px 7px 6px #47414142;
+}
+
+header h1{
+    color:white;
+    font-family: 'Changa One', sans-serif;
+    font-size:30px;
+}
+
+/* nav*/
+.nav{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    float: left;
+    width: 15%;
+    height: 580px;
+    background: #EC8031;
+    padding: 20px;
+    box-shadow: 6px 4px 5Px 1px #1f1e1e6e;
+}
+
+.nav ul {
+    list-style-type: none;
+
+}
+
+.nav a{
+    text-decoration: none;
+}
+/*section */
+
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+/* footer*/
+footer{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
 }
